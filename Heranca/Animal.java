@@ -1,6 +1,6 @@
 package Heranca;
 
-public abstract class Animal { {
+public class Animal { {
 	
 	private String nome;
 	private String som;
