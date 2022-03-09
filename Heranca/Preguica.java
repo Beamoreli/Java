@@ -1,13 +1,7 @@
 package Heranca;
 
-public abstract class Preguica extends Animal{
+public class Preguica extends Animal{
 
-	 String subir;
-	
-	 @Override
-		public void emitirSom(){
-			System.out.println("Som de Animal.");
-		}
 
 	public String getSubir() 
 	{
