@@ -1,8 +1,12 @@
 package Heranca;
 
-public class Cavalo extends Animal {
+public abstract class Cavalo extends Animal {
 	
 	 String correr;
+	 @Override
+		public void emitirSom(){
+			System.out.println("Relinchando.");
+	 }
 
 	public String getCorrer()
 	{
